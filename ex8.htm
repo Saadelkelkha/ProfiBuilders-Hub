@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        .a p{
+            position: relative;
+            top:7px;
+            margin-left: 8px;
+        }
+        .b{
+            filter: brightness(80%);
+        }
+        .C{
+            background: linear-gradient(rgba(0, 0, 0, 0.67),rgba(0, 0, 0, 0.667)),url(OIP.jpg);
+            background-size: cover;
+            min-height: 100vh;
+            width: 100%;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        @media screen and (min-width:768px) {
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="a w-100 bg-success d-flex flex-wrap justify-content-between text-white border rounded">
+            <div class="btn-group ">
+                <div class="btn-group">
+                    <button type="button" class="btn text-white dropdown-toggle" data-bs-toggle="dropdown">LANDINGS</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item"></a>
+                    </div>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn text-white dropdown-toggle" data-bs-toggle="dropdown">DOCUMENTATION</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex me-5">
+                <p class="b">CALL US TODAY:</p>
+                <p>123-456-7890</p>
+            </div>
+        </header>
+        <div class="navbar navbar-expand-sm ps-4 pe-4 text-black bg-light">
+            <a class="navbar-brand" href="#"><h4>PROFI</h4></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="d navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">VEGETABLES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">GARDEN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="C text-white">
+            <h1 >Contractors in New York</h1>
+            <p align="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure in ratione amet nesciunt ut eveniet qui eligendi temporibus fuga beatae nemo praesentium reprehenderit rerum molestiae, provident quis ea iste atque.
+            Ipsam,</p>
+            <button class="btn btn-success">GET A FREE ESTIMATE</button>
+            <div class="row container-fluid d-flex justify-content-between mt-5">
+                <div class="col-md-4">
+                    <div align="center"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="60" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                    </svg></div>
+                    <p align="center">OUR LOCATION<br>
+                    New York State</p> 
+                </div>
+                <div class="col-md-4">
+                    <div align="center"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="60" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                    </svg></div>
+                    <p align="center">CONTACT PHONE<br>
+                    123-456-7890</p> 
+                </div>
+                <div class="col-md-4">
+                    <div align="center"><svg  xmlns="http://www.w3.org/2000/svg" width="30" height="60" fill="currentColor" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
+                        <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708"/>
+                    </svg></div>
+                    
+                    <p align="center">LICENSE NUMBER<br>
+                    #7532</p> 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
